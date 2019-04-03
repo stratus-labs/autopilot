@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = Autopilot::VERSION
   spec.authors     = ["Dylan Feltus"]
   spec.email       = ["contact@dylanfeltus.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of Autopilot."
-  spec.description = "TODO: Description of Autopilot."
+  spec.homepage    = "https://stratuslabs.io/autopilot"
+  spec.summary     = "Generate your next Rails app"
+  spec.description = "With Autopilot you can generate a starting point for your next SaaS project. Add accounts with multiple users, Stripe billing, permissions, onboarding flows, and more."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
