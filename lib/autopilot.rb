@@ -12,9 +12,5 @@ module Autopilot
 
   class Configuration
     attr_accessor :multiple_users, :super_admin, :home_page
-    #
-    # def initialize
-    #   @mailer_sender = 'donotreply@example.com'
-    # end
   end
 end

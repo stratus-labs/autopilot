@@ -4,9 +4,10 @@ Ship your next SaaS product in hours, not days or weeks.
 ## Install
 
 - rails new example --database=postgresql
-- Add config
+- ~~Add config~~
 - gem 'autopilot', git: 'https://github.com/stratuslabs/autopilot.git'
 - `bundle install`
+- Set up database
 
 ### For development
 ```

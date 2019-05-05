@@ -65,3 +65,10 @@
 #
 #   puts "Congrats! Your app is now generated. Time to focus on the real coding!"
 # # end
+
+
+# <%= form_for [current_account, User.new], url: { action: "send_user_invite" } do |f| %>
+#   <%= f.label :email, "Email address" %>
+#   <%= f.text_field :email, placeholder: "example@gmail.com", required: true %>
+#   <%= f.submit "Send invite" %>
+# <% end %>

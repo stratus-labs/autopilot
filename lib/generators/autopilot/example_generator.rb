@@ -1,10 +1,11 @@
 module Autopilot
   module Generators
-    class AdminGenerator < Rails::Generators::Base
+    class ExampleGenerator < Rails::Generators::Base
       desc "This generator needs a description"
 
       def do_magic
-        puts "Set up active admin"
+        puts "Adding an example model..."
+        # TODO
       end
     end
   end
