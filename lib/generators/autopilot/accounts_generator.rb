@@ -6,10 +6,9 @@ module Autopilot
       puts "Source: #{source_root}"
 
       def run
-        puts "Set up accounts"
+        puts "Setting up multiple users per accounts"
         # add devise invitable
         # generate "model Account"
-        # copy_file "../../templates/account.rb", "app/models/account.rb"
         template "account.rb", "app/models/account.rb"
         template "user.rb", "app/models/user.rb", force: true
 

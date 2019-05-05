@@ -4,8 +4,7 @@ module Autopilot
       desc "This generator needs a description"
 
       def run
-        # Devise
-        puts "Set up devise"
+        puts "Setting up users & authentication..."
         gem "devise"
         Bundler.with_clean_env do
           run "bundle install"
