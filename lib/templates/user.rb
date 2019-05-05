@@ -18,7 +18,7 @@ private
 
   def create_account
     if self.account_id.nil?
-      account = Account.create
+      account = Account.create(owner_id: self.id)
       self.update(account: account)
     end
   end

@@ -36,6 +36,7 @@ module Autopilot
         end
 
         generate "migration AddAccountToUsers account:references"
+        generate "migration AddOwnerIdToAccounts owner_id:integer"
         generate "migration AddDeletedAtToAccounts deleted_at:datetime:index"
       end
     end
