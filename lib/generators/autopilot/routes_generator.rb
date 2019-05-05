@@ -2,7 +2,7 @@ module Autopilot
   module Generators
     class RoutesGenerator < Rails::Generators::Base
       desc "This generator needs a description"
-      source_root File.expand_path("../../../templates", __FILE__)
+      source_root File.expand_path("../../templates", __FILE__)
 
       def run
         puts "Setting up routes..."
@@ -10,15 +10,12 @@ module Autopilot
 
         # add dash and routes:
         # copy_file "../../templates/pages_controller.rb", "app/controllers/pages_controller.rb"
-        template "pages_controller.rb", "app/controllers/pages_controller.rb"
+        template "controllers/pages_controller.rb", "app/controllers/pages_controller.rb"
         # copy_file "../../templates/views/pages/dash.html.erb", "app/views/pages/dash.html.erb"
         template "views/pages/dash.html.erb", "app/views/pages/dash.html.erb"
 
         # Routes:
-        route "end"
-        route "root 'pages#dash', as: :authenticated_root"
-        route "authenticated :user do"
-        route "get '/dash', to: 'pages#dash', as: :dash"
+        template "routes.rb", "config/routes.rb", force: true
 
         if include_home_page
           puts "Set up marketing home page"

@@ -1,9 +1,10 @@
 module Autopilot
   module Generators
-    class MagicGenerator < Rails::Generators::Base
+    class GoGenerator < Rails::Generators::Base
       desc "This generator needs a description"
 
       def run
+        # TODO: if configuration doesn't exist, set defaults...
         include_accounts = Autopilot.configuration.multiple_users
         include_admin = Autopilot.configuration.super_admin
 
