@@ -1,3 +1,6 @@
+# Generate yml: rails g autopilot:setup
+# Run autopilot: rails g autopilot
+
 # source_root File.expand_path('../templates', __dir__)
 #
 # # def magic
