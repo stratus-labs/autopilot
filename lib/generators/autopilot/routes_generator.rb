@@ -1,7 +1,7 @@
 module Autopilot
   module Generators
     class RoutesGenerator < Rails::Generators::Base
-      desc "This generator needs a description"
+      desc "Generate basic routes and pages"
       class_option :home, type: :boolean
       source_root File.expand_path("../../../templates", __FILE__)
 

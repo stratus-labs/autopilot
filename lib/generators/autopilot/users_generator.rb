@@ -1,7 +1,7 @@
 module Autopilot
   module Generators
     class UsersGenerator < Rails::Generators::Base
-      desc "This generator needs a description"
+      desc "Generate User model with Devise"
 
       def do_magic
         puts "Setting up users & authentication..."

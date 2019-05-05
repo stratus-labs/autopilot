@@ -1,7 +1,7 @@
 module Autopilot
   module Generators
     class GoGenerator < Rails::Generators::Base
-      desc "This generator needs a description"
+      desc "This generator will create your app based on the answers you provide."
 
       def do_magic
 

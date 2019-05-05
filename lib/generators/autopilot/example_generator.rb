@@ -1,7 +1,7 @@
 module Autopilot
   module Generators
     class ExampleGenerator < Rails::Generators::Base
-      desc "This generator needs a description"
+      desc "WIP: Generate example Post and Comment model"
 
       def do_magic
         puts "Adding an example model..."

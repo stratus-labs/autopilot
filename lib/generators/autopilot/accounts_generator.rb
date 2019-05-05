@@ -1,7 +1,7 @@
 module Autopilot
   module Generators
     class AccountsGenerator < Rails::Generators::Base
-      desc "This generator needs a description"
+      desc "Generate Account model with devise_invitable"
       source_root File.expand_path("../../../templates", __FILE__)
 
       def do_magic
