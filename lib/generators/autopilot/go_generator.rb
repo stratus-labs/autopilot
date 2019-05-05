@@ -17,7 +17,7 @@ module Autopilot
           include_admin = false
         end
 
-        if yes?("Do you want to include a home page as your unauthenticated root? [y|n]")
+        if yes?("Do you want to include a home page? [y|n]")
           include_home = true
         else
           include_home = false
