@@ -1,5 +1,7 @@
 # Autopilot Rails
 
+⚠️ The generators in this gem will cause havoc on any existing project. This is designed for **BRAND NEW** projects only.
+
 ```
 Autopilot.configure do |config|
   config.multiple_users = true
