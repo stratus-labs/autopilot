@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors     = ["Dylan Feltus"]
   spec.email       = ["contact@dylanfeltus.com"]
   spec.homepage    = "https://stratuslabs.io/autopilot"
-  spec.summary     = "Generate your next Rails app"
+  spec.summary     = "Generate your next SaaS app using Rails"
   spec.description = "With Autopilot you can generate a starting point for your next SaaS project. Add accounts with multiple users, Stripe billing, permissions, onboarding flows, and more."
   spec.license     = "MIT"
 
