@@ -7,7 +7,9 @@ module Autopilot
         include_accounts = Autopilot.configuration.multiple_users
         include_admin = Autopilot.configuration.super_admin
 
-        # generate "autopilot:users"
+        gem "paranoia", "~> 2.2"
+
+        generate "autopilot:users"
         generate "autopilot:routes"
 
         if include_accounts
