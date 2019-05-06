@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    autopilot_rails (0.1.0)
+    autopilot-rails (0.1.0)
       rails (~> 5.2.2, >= 5.2.2.1)
 
 GEM
@@ -119,7 +119,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  autopilot_rails!
+  autopilot-rails!
 
 BUNDLED WITH
    1.16.6
