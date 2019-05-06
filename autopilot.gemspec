@@ -1,7 +1,7 @@
-$:.push File.expand_path("lib", __dir__)
+# $:.push File.expand_path("lib", __dir__)
 
 # Maintain your gem's version:
-require "autopilot/version"
+require "lib/autopilot/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
