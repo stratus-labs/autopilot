@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name        = "autopilot-rails"
-  spec.version     = "0.1.0"
+  spec.version     = "0.1.1"
   spec.authors     = ["Dylan Feltus"]
   spec.email       = ["contact@dylanfeltus.com"]
   spec.homepage    = "https://github.com/stratuslabs/autopilot"
