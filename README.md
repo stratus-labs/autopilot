@@ -1,4 +1,4 @@
-# Autopilot Rails
+# Autopilot for Ruby on Rails
 
 _⚠️ This project is still a WIP. It currently works with a limited set of features._
 
@@ -19,7 +19,9 @@ More features coming soon:
 ## Install
 
 To install Autopilot, simply add the gem to your Gemfile:
-`gem 'autopilot', git: 'https://github.com/stratuslabs/autopilot.git'`
+`gem 'autopilot-rails'`
+
+or run `gem install autopilot-rails`
 
 ## Usage
 
@@ -31,12 +33,4 @@ To generate a project run `rails generate autopilot:go` to get started. The gene
 | Do you want to include ActiveAdmin? | This will install ActiveAdmin with a few extra features like "Log in as user" and an account growth chart. |
 | Do you want to include a home page? | This will add a blank html page and set it as your unauthenticated root path. When set to false your log in page will be the root. |
 
-## Starting from scratch
-
-Here are some instructions to help you start a Rails app from scratch:
-
-- rails new example --database=postgresql
-- ~~Add config~~
-- gem 'autopilot', git: 'https://github.com/stratuslabs/autopilot.git'
-- `bundle install`
-- Set up database
+If you're starting from scratch, take a look at this [helpful guide](https://github.com/stratuslabs/autopilot/wiki/Starting-a-SaaS-app-from-scratch-with-Ruby-on-Rails).
