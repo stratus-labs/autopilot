@@ -1,4 +1,4 @@
 require "autopilot/railtie"
 
-module AutopilotRails
+module Autopilot
 end
