@@ -1,12 +1,6 @@
-# $:.push File.expand_path("lib", __dir__)
-
-# Maintain your gem's version:
-require "lib/autopilot/version"
-
-# Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
   spec.name        = "autopilot"
-  spec.version     = Autopilot::VERSION
+  spec.version     = "0.1.0"
   spec.authors     = ["Dylan Feltus"]
   spec.email       = ["contact@dylanfeltus.com"]
   spec.homepage    = "https://stratuslabs.io/autopilot"
@@ -26,6 +20,4 @@ Gem::Specification.new do |spec|
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
   spec.add_dependency "rails", "~> 5.2.2", ">= 5.2.2.1"
-
-  spec.add_development_dependency "sqlite3"
 end
