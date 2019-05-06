@@ -1,5 +1,5 @@
 Gem::Specification.new do |spec|
-  spec.name        = "autopilot_rails"
+  spec.name        = "autopilot-rails"
   spec.version     = "0.1.0"
   spec.authors     = ["Dylan Feltus"]
   spec.email       = ["contact@dylanfeltus.com"]
